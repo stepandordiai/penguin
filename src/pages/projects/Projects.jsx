@@ -1,5 +1,5 @@
 import Project from "../../components/project/Project";
-import "./Projects.css";
+import "./Projects.scss";
 
 function Projects() {
     addEventListener("scroll", () => {

@@ -1,5 +1,5 @@
 {
-    "name": "heeeyooo-website-react",
+    "name": "penguin",
     "private": true,
     "version": "0.0.0",
     "type": "module",
@@ -11,10 +11,7 @@
     },
     "dependencies": {
         "react": "^18.2.0",
-        "react-dom": "^18.2.0",
-        "react-router-dom": "^6.24.1",
-        "react-switch": "^7.0.0",
-        "use-local-storage": "^3.0.0"
+        "react-dom": "^18.2.0"
     },
     "devDependencies": {
         "@types/react": "^18.2.66",
@@ -24,6 +21,7 @@
         "eslint-plugin-react": "^7.34.1",
         "eslint-plugin-react-hooks": "^4.6.0",
         "eslint-plugin-react-refresh": "^0.4.6",
+        "sass": "^1.85.0",
         "vite": "^5.2.0"
     }
 }

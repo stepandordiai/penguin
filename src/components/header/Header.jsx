@@ -1,6 +1,6 @@
 import BurgerBtn from "./../burgerBtn/BurgerBtn";
 import cv from "./../../pdf/stepan-dordiai-cv-v2.2.1.pdf";
-import "./Header.css";
+import "./Header.scss";
 
 function Header() {
     addEventListener("scroll", () => {
@@ -144,7 +144,7 @@ function Header() {
             <div className="header-socials">
                 <a
                     className="social-github"
-                    href="https://github.com/heeeyooo"
+                    href="https://github.com/stepandordiai"
                     target="_blank"
                 >
                     <i className="fa-brands fa-github"></i>

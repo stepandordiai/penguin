@@ -7,8 +7,7 @@ import Skills from "./pages/skills/Skills";
 import Projects from "./pages/projects/Projects";
 import Contact from "./pages/contact/Contact";
 import Footer from "./components/footer/Footer";
-import "./App.css";
-import "./variables.css";
+import "./App.scss";
 
 function App() {
     return (

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import logoBlack from "./../../logo_img/penguin-black.png";
-import logoWhite from "./../../logo_img/penguin-white.png";
-import "./Footer.css";
+import logoBlack from "./../../assets/logo/penguin-black.png";
+import logoWhite from "./../../assets/logo/penguin-white.png";
+import "./Footer.scss";
 
 function Footer() {
     useEffect(() => {
@@ -772,7 +772,7 @@ function Footer() {
             <div className="info-icon">
                 <a
                     className="icon-color"
-                    href="https://github.com/heeeyooo"
+                    href="https://github.com/stepandordiai"
                     target="_blank"
                 >
                     <i className="fa-brands fa-github"></i>
@@ -807,7 +807,7 @@ function Footer() {
                 </a>
             </div>
             <p className="copyright">
-                © penguin 2024 | Made with love by{" "}
+                © penguin 2023 - {new Date().getFullYear()} | Made with love by{" "}
                 <a
                     className="creator"
                     href="https://stepandordiai.netlify.app/"

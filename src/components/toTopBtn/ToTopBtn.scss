@@ -1,0 +1,67 @@
+#progress {
+    font-family: inherit;
+    font-weight: 300;
+    height: 50px;
+    width: 50px;
+    background: var(--glass-background);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: var(--color);
+    padding: 0;
+    border: none;
+    z-index: 99;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#progress-value {
+    background-color: transparent;
+    opacity: 0;
+}
+
+#arrow-up {
+    position: absolute;
+    opacity: 1;
+}
+
+@keyframes opacUp {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes opacDown {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes toTopButton {
+    from {
+        bottom: -60px;
+    }
+    to {
+        bottom: 25px;
+    }
+}
+@keyframes toDownButton {
+    from {
+        bottom: 25px;
+    }
+    to {
+        bottom: -60px;
+    }
+}

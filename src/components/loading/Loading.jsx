@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import loadingLogo from "./../../logo_img/penguin-black.png";
-import "./Loading.css";
+import loadingLogo from "./../../assets/logo/penguin-black.png";
+import "./Loading.scss";
 
 function Loading() {
     useEffect(() => {

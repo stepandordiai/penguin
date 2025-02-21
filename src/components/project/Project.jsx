@@ -1,4 +1,4 @@
-import "./Project.css";
+import "./Project.scss";
 
 function Project() {
     const DATA = [

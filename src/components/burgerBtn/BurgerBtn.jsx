@@ -1,5 +1,4 @@
-import "./BurgerBtn.css";
-import "./../header/Header.css";
+import "./BurgerBtn.scss";
 
 function BurgerBtn() {
     function toggleBtn() {

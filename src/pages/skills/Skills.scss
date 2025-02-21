@@ -64,7 +64,8 @@
     width: 200px;
     height: 200px;
     background: var(--glass-background);
-    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .skill1,
@@ -128,15 +129,15 @@
 
 .skills-progress-container {
     position: absolute;
-    top: 0;
     left: 0;
-    bottom: 0;
-    width: 0px;
+    width: 0;
+    height: 100%;
     z-index: 2;
 }
 
 .skills-icon {
     z-index: 3;
+    cursor: pointer;
 }
 
 .skills-progress-percent {

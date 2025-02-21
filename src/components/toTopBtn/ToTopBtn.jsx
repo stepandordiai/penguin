@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import "./ToTopBtn.css";
+import "./ToTopBtn.scss";
 
 function ToTopBtn() {
     function topFunction() {

@@ -1,4 +1,4 @@
-import "./Contact.css";
+import "./Contact.scss";
 
 function Contact() {
     function wrongEmail() {

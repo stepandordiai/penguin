@@ -1,5 +1,5 @@
-import "./About.css";
 import { useEffect } from "react";
+import "./About.scss";
 
 function About() {
     useEffect(() => {
